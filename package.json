@@ -1,0 +1,19 @@
+{
+  "name": "celk",
+  "version": "1.0.0",
+  "description": "Teste Celk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.9",
+    "angular-datatables": "^0.6.2",
+    "angular-route": "^1.7.9",
+    "bootstrap": "^3.4.1",
+    "jquery-confirm": "^3.3.4",
+    "toastr": "^2.1.4"
+  }
+}

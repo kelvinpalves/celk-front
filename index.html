@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-strict-di>
+<head>
+	<title>Celk</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<base href="/celk/">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" type="text/css" href="node_modules/angular-datatables/dist/plugins/bootstrap/datatables.bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/toastr/build/toastr.min.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/jquery-confirm/dist/jquery-confirm.min.css">
+</head>
+<body>
+	<div class="container-fluid" ng-view style="margin: 10px; padding-top: 10px;"></div>
+
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="node_modules/toastr/build/toastr.min.js"></script>
+	<script type="text/javascript" src="node_modules/jquery-confirm/dist/jquery-confirm.min.js"></script>
+
+	<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="node_modules/angular-route/angular-route.js"></script>
+	
+	<script type="text/javascript" src="node_modules/angular-datatables/dist/angular-datatables.min.js"></script>
+	<script type="text/javascript" src="node_modules/angular-datatables/dist/plugins/bootstrap/angular-datatables.bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="src/app/app.module.js"></script>
+	<script type="text/javascript" src="src/app/app.route.js"></script>
+	<script type="text/javascript" src="src/app/core/datatables.constants.js"></script>
+
+	<script type="text/javascript" src="src/app/uf/uf.module.js"></script>
+	<script type="text/javascript" src="src/app/uf/uf.js"></script>
+</body>
+</html>
